@@ -281,3 +281,17 @@ Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Factories 44.74 ms (1)
 Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Action "main/index" 31.57 ms (1)
 Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 10.81 ms (1)
 Feb 14 07:41:57 symfony [info] {sfWebResponse} Send content (31475 o)
+Feb 14 07:45:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:45:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:45:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:45:11 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:45:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:45:11 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:45:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:45:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:45:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:45:11 symfony [info] {sfWebDebugLogger} Configuration 12.06 ms (9)
+Feb 14 07:45:11 symfony [info] {sfWebDebugLogger} Factories 47.79 ms (1)
+Feb 14 07:45:11 symfony [info] {sfWebDebugLogger} Action "main/index" 33.05 ms (1)
+Feb 14 07:45:11 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 14.24 ms (1)
+Feb 14 07:45:11 symfony [info] {sfWebResponse} Send content (31476 o)
