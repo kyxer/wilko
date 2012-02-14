@@ -26,3 +26,258 @@ Feb 14 06:46:56 symfony [info] {sfWebDebugLogger} Factories 43.58 ms (1)
 Feb 14 06:46:56 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
 Feb 14 06:46:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.54 ms (1)
 Feb 14 06:46:56 symfony [info] {sfWebResponse} Send content (29975 o)
+Feb 14 07:13:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:13:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:13:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:13:55 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:13:55 symfony [info] {mainActions} Forward to action "default/module"
+Feb 14 07:13:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:13:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:13:55 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Feb 14 07:13:55 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\symfony\lib/controller/default/templates/moduleSuccess.php"
+Feb 14 07:13:56 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\symfony\lib\controller\default\templates/defaultLayout.php"
+Feb 14 07:13:56 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\symfony\lib\controller\default\templates/defaultLayout.php"
+Feb 14 07:13:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:13:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:13:56 symfony [info] {sfWebDebugLogger} Configuration 544.92 ms (12)
+Feb 14 07:13:56 symfony [info] {sfWebDebugLogger} Factories 531.08 ms (1)
+Feb 14 07:13:56 symfony [info] {sfWebDebugLogger} Action "main/index" 150.22 ms (1)
+Feb 14 07:13:56 symfony [info] {sfWebDebugLogger} Action "default/module" 0.23 ms (1)
+Feb 14 07:13:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 85.87 ms (1)
+Feb 14 07:13:56 symfony [info] {sfWebResponse} Send content (31784 o)
+Feb 14 07:14:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:14:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:14:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:14:31 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:14:31 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:14:31 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:14:31 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:14:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:14:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:14:31 symfony [info] {sfWebDebugLogger} Configuration 27.18 ms (10)
+Feb 14 07:14:31 symfony [info] {sfWebDebugLogger} Factories 50.73 ms (1)
+Feb 14 07:14:31 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:14:31 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 30.68 ms (1)
+Feb 14 07:14:31 symfony [info] {sfWebResponse} Send content (28266 o)
+Feb 14 07:20:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:20:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:20:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:20:50 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:20:50 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:20:50 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:20:50 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:20:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:20:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:20:50 symfony [info] {sfWebDebugLogger} Configuration 264.89 ms (10)
+Feb 14 07:20:50 symfony [info] {sfWebDebugLogger} Factories 647.24 ms (1)
+Feb 14 07:20:50 symfony [info] {sfWebDebugLogger} Action "main/index" 0.34 ms (1)
+Feb 14 07:20:50 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 470.32 ms (1)
+Feb 14 07:20:50 symfony [info] {sfWebResponse} Send content (28374 o)
+Feb 14 07:22:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:22:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:22:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:22:38 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:22:38 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:22:38 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:22:38 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:22:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:22:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:22:38 symfony [info] {sfWebDebugLogger} Configuration 7.26 ms (9)
+Feb 14 07:22:38 symfony [info] {sfWebDebugLogger} Factories 39.64 ms (1)
+Feb 14 07:22:38 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:22:38 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 13.43 ms (1)
+Feb 14 07:22:38 symfony [info] {sfWebResponse} Send content (29040 o)
+Feb 14 07:23:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:23:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:23:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:23:09 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:23:09 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:23:09 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:09 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:23:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:23:09 symfony [info] {sfWebDebugLogger} Configuration 7.35 ms (9)
+Feb 14 07:23:09 symfony [info] {sfWebDebugLogger} Factories 40.31 ms (1)
+Feb 14 07:23:09 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:23:09 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 13.99 ms (1)
+Feb 14 07:23:09 symfony [info] {sfWebResponse} Send content (29086 o)
+Feb 14 07:23:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:23:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:23:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:23:11 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:23:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:23:11 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:23:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:23:11 symfony [info] {sfWebDebugLogger} Configuration 12.63 ms (9)
+Feb 14 07:23:11 symfony [info] {sfWebDebugLogger} Factories 50.99 ms (1)
+Feb 14 07:23:11 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:23:11 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 13.28 ms (1)
+Feb 14 07:23:11 symfony [info] {sfWebResponse} Send content (29086 o)
+Feb 14 07:23:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:23:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:23:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:23:27 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:23:27 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:23:27 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:27 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:23:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:23:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:23:27 symfony [info] {sfWebDebugLogger} Configuration 14.56 ms (9)
+Feb 14 07:23:27 symfony [info] {sfWebDebugLogger} Factories 77.14 ms (1)
+Feb 14 07:23:27 symfony [info] {sfWebDebugLogger} Action "main/index" 0.67 ms (1)
+Feb 14 07:23:27 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 26.00 ms (1)
+Feb 14 07:23:27 symfony [info] {sfWebResponse} Send content (29070 o)
+Feb 14 07:24:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:09 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:09 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:09 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:09 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:09 symfony [info] {sfWebDebugLogger} Configuration 75.71 ms (10)
+Feb 14 07:24:09 symfony [info] {sfWebDebugLogger} Factories 41.31 ms (1)
+Feb 14 07:24:09 symfony [info] {sfWebDebugLogger} Action "main/index" 0.14 ms (1)
+Feb 14 07:24:09 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 115.57 ms (1)
+Feb 14 07:24:09 symfony [info] {sfWebResponse} Send content (29200 o)
+Feb 14 07:24:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:10 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:10 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:10 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:10 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:10 symfony [info] {sfWebDebugLogger} Configuration 11.29 ms (9)
+Feb 14 07:24:10 symfony [info] {sfWebDebugLogger} Factories 55.56 ms (1)
+Feb 14 07:24:10 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:24:10 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 11.96 ms (1)
+Feb 14 07:24:10 symfony [info] {sfWebResponse} Send content (29196 o)
+Feb 14 07:24:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:28 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:28 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:28 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:28 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:28 symfony [info] {sfWebDebugLogger} Configuration 10.55 ms (9)
+Feb 14 07:24:28 symfony [info] {sfWebDebugLogger} Factories 56.88 ms (1)
+Feb 14 07:24:28 symfony [info] {sfWebDebugLogger} Action "main/index" 0.14 ms (1)
+Feb 14 07:24:28 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 14.90 ms (1)
+Feb 14 07:24:28 symfony [info] {sfWebResponse} Send content (29197 o)
+Feb 14 07:24:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:38 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:38 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:38 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:38 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:38 symfony [info] {sfWebDebugLogger} Configuration 13.33 ms (9)
+Feb 14 07:24:38 symfony [info] {sfWebDebugLogger} Factories 101.26 ms (1)
+Feb 14 07:24:38 symfony [info] {sfWebDebugLogger} Action "main/index" 0.23 ms (1)
+Feb 14 07:24:38 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 14.66 ms (1)
+Feb 14 07:24:38 symfony [info] {sfWebResponse} Send content (29215 o)
+Feb 14 07:24:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:39 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:39 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:39 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:39 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:39 symfony [info] {sfWebDebugLogger} Configuration 7.10 ms (9)
+Feb 14 07:24:39 symfony [info] {sfWebDebugLogger} Factories 41.90 ms (1)
+Feb 14 07:24:39 symfony [info] {sfWebDebugLogger} Action "main/index" 0.14 ms (1)
+Feb 14 07:24:39 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 13.25 ms (1)
+Feb 14 07:24:39 symfony [info] {sfWebResponse} Send content (29214 o)
+Feb 14 07:24:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:24:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:24:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:24:48 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:24:48 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:24:48 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:48 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:24:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:24:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:24:48 symfony [info] {sfWebDebugLogger} Configuration 12.37 ms (9)
+Feb 14 07:24:48 symfony [info] {sfWebDebugLogger} Factories 49.76 ms (1)
+Feb 14 07:24:48 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Feb 14 07:24:48 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 11.83 ms (1)
+Feb 14 07:24:48 symfony [info] {sfWebResponse} Send content (29197 o)
+Feb 14 07:40:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:40:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:40:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:40:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:40:43 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:40:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:40:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:40:43 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:41:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:41:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:41:03 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:41:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:41:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:41:11 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:41:11 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:11 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:41:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:41:11 symfony [info] {sfWebDebugLogger} Configuration 43.79 ms (10)
+Feb 14 07:41:11 symfony [info] {sfWebDebugLogger} Factories 46.56 ms (1)
+Feb 14 07:41:11 symfony [info] {sfWebDebugLogger} Action "main/index" 291.01 ms (1)
+Feb 14 07:41:11 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 165.53 ms (1)
+Feb 14 07:41:11 symfony [info] {sfWebResponse} Send content (31469 o)
+Feb 14 07:41:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:41:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:41:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:41:33 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:33 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:41:33 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:33 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:41:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:41:33 symfony [info] {sfWebDebugLogger} Configuration 14.17 ms (9)
+Feb 14 07:41:33 symfony [info] {sfWebDebugLogger} Factories 63.74 ms (1)
+Feb 14 07:41:33 symfony [info] {sfWebDebugLogger} Action "main/index" 36.16 ms (1)
+Feb 14 07:41:33 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 16.97 ms (1)
+Feb 14 07:41:33 symfony [info] {sfWebResponse} Send content (31476 o)
+Feb 14 07:41:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:41:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:41:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:41:57 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Configuration 12.59 ms (9)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Factories 45.89 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Action "main/index" 33.62 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 15.46 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send content (31476 o)
+Feb 14 07:41:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Feb 14 07:41:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 07:41:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 07:41:57 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\modules/main/templates/indexSuccess.php"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Decorate content with "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:57 symfony [info] {sfPHPView} Render "C:\Projects\wilco\apps\frontend\templates/layout.php"
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Configuration 7.33 ms (9)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Factories 44.74 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} Action "main/index" 31.57 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 10.81 ms (1)
+Feb 14 07:41:57 symfony [info] {sfWebResponse} Send content (31475 o)

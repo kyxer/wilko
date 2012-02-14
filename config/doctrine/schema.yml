@@ -1,0 +1,25 @@
+---
+Usuario:
+  actAs: { Timestampable: ~ }
+  tableName: usuario
+  columns:
+    id:
+      type: integer(11)
+      primary: true
+      autoincrement: true
+    username:
+      type: string(128)
+      notnull: false
+    email:
+      type: string (128)
+      notnull: false
+    nombre:
+      type: string(128)
+      notnull: true
+    apellido:
+      type: string(128)
+      notnull: true
+    telefono:
+      type: string(14)
+      notnull: true
+  relations:
