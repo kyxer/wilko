@@ -1,0 +1,11 @@
+Usuario:
+<?php for ($i = 1; $i <= 10; $i++): ?>
+  usuario_<?php echo $i ?>:
+    id: <?php echo $i."\n" ?>
+    username: username_<?php echo $i."\n" ?>
+    email: email_<?php echo $i ?>@gmail.com
+    nombre: nombre_<?php echo $i."\n" ?>
+    apellido: apellido_<?php echo $i."\n" ?>
+    telefono: 0212-8722165
+    tipo: A
+<?php endfor ?>

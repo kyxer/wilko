@@ -6,4 +6,9 @@ homepage:
   url:   /
   param: { module: main, action: index }
 
+#Ruta para autenticacion
 
+autenticacion:
+  url: /main/autenticacion
+  param: {module: main, action: autenticacion}
+  

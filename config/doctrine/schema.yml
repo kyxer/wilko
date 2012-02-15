@@ -22,4 +22,7 @@ Usuario:
     telefono:
       type: string(14)
       notnull: true
+    tipo:
+      type: string(1)
+      notnull: true
   relations:

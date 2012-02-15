@@ -18,7 +18,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="./index.html">WILCO</a>
+                    <a class="brand" href="<?php echo url_for("@homepage")?>">WILCO</a>
                     <div class="nav-collapse">
 
                        
